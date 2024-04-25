@@ -1,12 +1,12 @@
-import Link from "next/link";
+import Link from 'next/link';
 import {
   Navbar,
   NavbarBrand,
   NavbarContent,
   NavbarItem,
   Input,
-} from "@nextui-org/react";
-import HeaderAuth from "./header-auth";
+} from '@nextui-org/react';
+import HeaderAuth from '@/components/header-auth';
 
 export default function Header() {
   return (
@@ -16,7 +16,6 @@ export default function Header() {
           Discuss
         </Link>
       </NavbarBrand>
-
       <NavbarContent justify="center">
         <NavbarItem>
           <Input />
